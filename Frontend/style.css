@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+body{
+    background-image: linear-gradient(-225deg, #7DE2FC 0%, #B9B6E5 100%);
+}
+h1,
+h2,
+h3,
+h4{
+    font-family: 'Josefin Sans', sans-serif;
+}
+p,
+li,
+label,
+input,
+button,
+textarea{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #545473;
+    font-size: 17px;
+}
+a{
+    text-decoration: none;
+    color:#434368;
+}
+ul{
+    list-style: none;
+}
+
+h1{
+    font-size: 38px;
+    padding: 10px;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0 10px;
+}
+h3{
+    font-size: 24px;    
+}
+h4{
+    font-size: 20px;
+}
+header{
+    margin-bottom: 15px;
+    padding: 10px;
+    background-image: linear-gradient(-225deg, #7DE2FC 0%, #B9B6E5 100%);
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
+}
+nav{
+    overflow: hidden;
+}
+nav h1,
+nav ul{
+    display: inline;
+}
+
+nav ul li{
+    float: right;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+section{
+    margin: 0 auto;
+}
+.poster{
+    width: 200px;
+}
+.main-container{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+}
+.main-container div{
+    display: inline-block;
+    text-align: right;
+    width: 450px;
+}
+.main-container div h4{
+    margin-top: 5px;
+}
+#descripcion-destacada {
+    text-align: left;
+}
+#izquierda {
+    text-align: left;
+}
+.favorita-container{
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.favorita{
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
+}
+.peliculas{
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 10px;
+    width: 610px;
+    margin: 20px auto;
+}
+
+.peli-container{
+    position: relative;
+    width: 100%;
+}
+.peli-container div{
+    display: inline-block;
+    width: 280px;
+    text-align: center;    
+}
+.derecha{
+    text-align: left;
+}
+#lista h3{
+    text-align: center;
+}
+.peli-container button{
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+#agregar form{
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+#agregar form textarea{
+    height: 100px;
+    font-size: 14px;
+    width: 100%;
+}
+
+#agregar form input{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #545473;
+    font-size: 14px;
+}
+
+#agregar form button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+footer{
+    background-color: #B9B6E5;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #545473;
+    font-size: 17px;
+}
+
